@@ -1,0 +1,42 @@
+.sidebar {
+    width: 300px;
+    background-color: black;
+    height: 100vh;
+    position: fixed;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.headshot {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    gap: 1rem;
+    color: #6EACDA;
+    margin-left: 1rem;
+
+}
+
+.social-icons a:hover {
+    color: #E2E2B6;
+    transition: 0.7s;
+}
+
+.nav-links {
+    margin-top: 30px;
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links li {
+    text-decoration: none;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
