@@ -1,0 +1,39 @@
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 40px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.about-description {
+    flex: 1; 
+    margin-right: 3rem;
+}
+
+.about-description h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: azure;
+}
+
+.about-description p {
+    color: azure;
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+    font-size: 1.5rem;
+}
+
+.about-image {
+    flex: 1; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.about-image img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px; 
+}

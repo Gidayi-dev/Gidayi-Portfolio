@@ -12,23 +12,23 @@ function Hero() {
                 <h1>
                 <TypeAnimation
                     sequence={[
-                        'A Fullstack Developer',
+                        'A Fullstack Developer.',
                         1000,
                         'Welcome to My Portfolio!',
                         1000, 
-                        'Passionate about coding with proficiency in',
+                        'Passionate about coding with proficiency in,',
                         1000, 
-                        'Javascript',
+                        'Javascript,',
                         1000,
-                        'React',
+                        'React,',
                         1000,
-                        'ExpressJs',
+                        'ExpressJs,',
                         1000,
-                        'Python',
+                        'Python,',
                         1000, 
-                        'Flask',
+                        'Flask,',
                         1000,
-                        'Django',
+                        'Django.',
                         1000 
                     ]}
                     wrapper="div" 

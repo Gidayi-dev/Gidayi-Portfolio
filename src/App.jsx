@@ -2,6 +2,7 @@
 import './App.css'
 import Sidebar from "./components/sidebar";
 import Hero from "./components/hero";
+import AboutMe from './components/about';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <Sidebar />
     <Hero />
     </div>
+    <AboutMe />
     </>
   )
 }
