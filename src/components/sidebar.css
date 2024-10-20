@@ -10,8 +10,16 @@
 
 }
 
+h3 {
+    margin-top: 1.4rem;
+}
+
 .headshot {
     margin-top: 1rem;
+}
+
+.social-icons {
+    margin-top: 1.4rem;
 }
 
 .social-icons a {
@@ -36,7 +44,11 @@
 }
 
 .nav-links li {
+    margin-top: 1.3 rem;
+}
+
+.nav-links li a {
     text-decoration: none;
     font-size: 2rem;
-    margin-top: 1rem;
+    color: azure;
 }

@@ -28,10 +28,10 @@ function Sidebar() {
             </div>
             <nav className="nav-links">
                 <ul>
-                    <li>Home</li>
-                    <li>About me</li>
-                    <li>Projects</li>
-                    <li>Contact me</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact me</a></li>
                 </ul>
             </nav>
         </div>
