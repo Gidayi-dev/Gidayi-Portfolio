@@ -2,3 +2,16 @@
   margin: 0;
   padding: 0;
 }
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 15%;
+}
+
+.hero {
+  width: 85%;
+}

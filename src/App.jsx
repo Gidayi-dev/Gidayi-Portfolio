@@ -7,8 +7,10 @@ function App() {
 
   return (
     <>
+    <div className='app-container'>
     <Sidebar />
     <Hero />
+    </div>
     </>
   )
 }

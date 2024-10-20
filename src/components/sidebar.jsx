@@ -3,13 +3,13 @@ import { MdEmail } from "react-icons/md";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import gidayiHeadshot from "./image/gidayi.jpg";
+import headshot from "../assets/headshot.jpg";
 
 function Sidebar() {
     return (
         <div className="sidebar">
             <div className="profile">
-                <img src="{gidayiHeadshot}" alt="Gidayi Headshot" className="headshot" />
+                <img src={headshot} alt="Gidayi Headshot" className="headshot" />
             </div>
             <h3>Millyannah Gidayi</h3>
             <div className="social-icons">

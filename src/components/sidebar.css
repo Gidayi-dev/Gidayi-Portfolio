@@ -1,13 +1,15 @@
 .sidebar {
-    width: 300px;
-    background-color: black;
-    height: 100vh;
-    position: fixed;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    width: 15%;
+    background-color: black; 
+    color: white; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: 100vh; 
+}
 
+.headshot {
+    border-radius: 50%;
 }
 
 h3 {
