@@ -12,7 +12,7 @@
 .skills-grid {
     display: flex;
     justify-content: center;
-    gap: 30px; /* Space between skill cards */
+    gap: 30px; 
     flex-wrap: wrap;
 }
 
@@ -27,12 +27,12 @@
 }
 
 .skill-card:hover {
-    transform: translateY(-10px); /* Small lift on hover */
+    transform: translateY(-10px); 
 }
 
 .skill-icon {
     font-size: 3rem;
-    color: #61dafb; /* Set a color or you can use different ones per skill */
+    color: #61dafb; 
     margin-bottom: 10px;
 }
 
