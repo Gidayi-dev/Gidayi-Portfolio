@@ -96,3 +96,15 @@ a {
 a:hover {
     text-decoration: underline; 
 }
+
+@media screen and (max-width: 900px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .name-email-group {
+        flex-direction: column;
+    }
+}

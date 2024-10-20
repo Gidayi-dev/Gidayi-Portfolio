@@ -37,3 +37,16 @@
     height: auto;
     border-radius: 8px; 
 }
+
+@media screen and (max-width: 1109px) {
+    .about-description p {
+        font-size: 1rem;
+    }
+} 
+
+@media screen and (max-width: 800px){
+    .about-me {
+        flex-direction: column;
+    }
+    
+}

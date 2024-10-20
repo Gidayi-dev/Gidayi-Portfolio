@@ -1,3 +1,4 @@
+
 import "./sidebar.css";
 import { MdEmail } from "react-icons/md";
 import { FaTwitter } from "react-icons/fa";
@@ -28,10 +29,10 @@ function Sidebar() {
             </div>
             <nav className="nav-links">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact me</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/About">About me</a></li>
+                    <li><a href="/Projects">Projects</a></li>
+                    <li><a href="/Contact">Contact me</a></li>
                 </ul>
             </nav>
         </div>
