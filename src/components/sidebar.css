@@ -1,16 +1,20 @@
 .sidebar {
     width: 15%;
-    background-color: black;
+    background-color: #021526;
     color: #E2E2B6;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    background-color: transparent;
+    position: fixed;
     top: 0;
-    left: 0;
-    z-index: 10;
-    transition: transform 0.3s ease;
+    left: -15%; /* Sidebar hidden off-screen */
+    z-index: 10; /* Ensure the sidebar appears above the content */
+    transition: left 0.3s ease; /* Smooth transition for slide-in */
+}
+
+.sidebar.open {
+    left: 0; /* Sidebar slides in when 'open' class is added */
 }
 
 .menu-icon {
@@ -23,42 +27,35 @@
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 1000; /* Ensure the menu icon is always on top */
 }
 
 @media (max-width: 1320px) {
     .sidebar {
-        transform: translateX(-100%);
-    }
-
-    .menu-icon {
-        display: block;
+        width: 250px; /* Adjust sidebar width on smaller screens */
+        left: -250px; /* Initially hidden off-screen */
     }
 }
 
 @media (max-width: 940px) {
     .sidebar {
-        width: 100%;
+        width: 100%; /* Full width for the sidebar */
         height: auto;
-        background-color: rgba(2, 21, 38, 0.9);
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 1000; 
-        transform: translateY(-100%);
-        transition: transform 0.3s ease;
+        left: -100%; /* Initially hidden off-screen */
+        background-color: rgba(2, 21, 38, 0.95); /* Slight transparency for better UX */
     }
 
-    .open .sidebar {
-        transform: translateY(0); 
-    }
-
-    .hero {
-        margin-top: 100vh; 
+    .sidebar.open {
+        left: 0; /* Sidebar slides in on smaller screens */
     }
 
     .sidebar h3,
     .sidebar .nav-links li a {
-        font-size: 1rem;
+        font-size: 1rem; /* Adjust text size for smaller screens */
     }
+}
+
+.hero {
+    position: relative;
+    z-index: 1; /* Ensure hero section is clickable even when sidebar is open */
 }

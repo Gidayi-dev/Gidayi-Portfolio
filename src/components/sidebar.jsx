@@ -5,10 +5,10 @@ import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import headshot from "../assets/headshot.jpg";
 
 function Sidebar() {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false); // State to track if sidebar is open or closed
 
     const toggleSidebar = () => {
-        setIsOpen(!isOpen);
+        setIsOpen(!isOpen); // Toggle sidebar state (open/closed)
     };
 
     const scrollToSection = (section) => {
@@ -23,7 +23,7 @@ function Sidebar() {
             <button className="menu-icon" onClick={toggleSidebar}>
                 ☰
             </button>
-            <div className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
+            <div className={`sidebar ${isOpen ? 'open' : ''}`}>
                 <div className="profile">
                     <img src={headshot} alt="Gidayi Headshot" className="headshot" />
                 </div>
