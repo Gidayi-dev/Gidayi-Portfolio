@@ -5,7 +5,7 @@ import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import headshot from "../assets/headshot.jpg";
 
 function Sidebar() {
-    const [isOpen, setIsOpen] = useState(false); 
+    const [isOpen, setIsOpen] = useState(false);
 
     const toggleSidebar = () => {
         setIsOpen(!isOpen);
@@ -54,6 +54,6 @@ function Sidebar() {
             </div>
         </>
     );
-};
+}
 
 export default Sidebar;

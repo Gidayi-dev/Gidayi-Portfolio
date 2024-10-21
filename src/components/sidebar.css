@@ -8,48 +8,57 @@
     height: 100vh;
     background-color: transparent;
     top: 0;
-    left: 0; 
-    z-index: 10; 
-    transition: transform 0.3s ease; 
+    left: 0;
+    z-index: 10;
+    transition: transform 0.3s ease;
 }
 
 .menu-icon {
     position: fixed;
     top: 20px;
-    left: 20px; 
-    background-color: #6EACDA; 
+    left: 20px;
+    background-color: #6EACDA;
     border: none;
     color: white;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    z-index: 1000; 
+    z-index: 1000;
 }
 
 @media (max-width: 1320px) {
     .sidebar {
-        transform: translateX(-100%); 
+        transform: translateX(-100%);
     }
 
     .menu-icon {
-        display: block; 
+        display: block;
     }
 }
 
 @media (max-width: 940px) {
     .sidebar {
-        width: 100%; 
-        height: auto; 
+        width: 100%;
+        height: auto;
+        background-color: rgba(2, 21, 38, 0.9); /* Transparent background */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000; /* Ensure it's above hero */
+        transform: translateY(-100%);
+        transition: transform 0.3s ease;
     }
+
+    .open .sidebar {
+        transform: translateY(0); /* Reveal the sidebar over hero */
+    }
+
+    .hero {
+        margin-top: 100vh; /* Ensure hero stays below the sidebar */
+    }
+
     .sidebar h3,
     .sidebar .nav-links li a {
-        font-size: 1rem; 
-    }
-}
-
-@media (max-width: 940px) {
-    .sidebar {
-        top: 0;
-        height: auto; 
+        font-size: 1rem;
     }
 }
