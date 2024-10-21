@@ -40,21 +40,21 @@
     .sidebar {
         width: 100%;
         height: auto;
-        background-color: rgba(2, 21, 38, 0.9); /* Transparent background */
+        background-color: rgba(2, 21, 38, 0.9);
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 1000; /* Ensure it's above hero */
+        z-index: 1000; 
         transform: translateY(-100%);
         transition: transform 0.3s ease;
     }
 
     .open .sidebar {
-        transform: translateY(0); /* Reveal the sidebar over hero */
+        transform: translateY(0); 
     }
 
     .hero {
-        margin-top: 100vh; /* Ensure hero stays below the sidebar */
+        margin-top: 100vh; 
     }
 
     .sidebar h3,
