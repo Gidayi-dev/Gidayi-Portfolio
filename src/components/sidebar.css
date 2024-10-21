@@ -8,13 +8,13 @@
     height: 100vh;
     position: fixed;
     top: 0;
-    left: -15%; /* Sidebar hidden off-screen */
-    z-index: 10; /* Ensure the sidebar appears above the content */
-    transition: left 0.3s ease; /* Smooth transition for slide-in */
+    left: -15%; 
+    z-index: 10; 
+    transition: left 0.3s ease; 
 }
 
 .sidebar.open {
-    left: 0; /* Sidebar slides in when 'open' class is added */
+    left: 0; 
 }
 
 .menu-icon {
@@ -27,35 +27,35 @@
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    z-index: 1000; /* Ensure the menu icon is always on top */
+    z-index: 1000;
 }
 
 @media (max-width: 1320px) {
     .sidebar {
-        width: 250px; /* Adjust sidebar width on smaller screens */
-        left: -250px; /* Initially hidden off-screen */
+        width: 250px; 
+        left: -250px;
     }
 }
 
 @media (max-width: 940px) {
     .sidebar {
-        width: 100%; /* Full width for the sidebar */
+        width: 100%; 
         height: auto;
-        left: -100%; /* Initially hidden off-screen */
-        background-color: rgba(2, 21, 38, 0.95); /* Slight transparency for better UX */
+        left: -100%; 
+        background-color: rgba(2, 21, 38, 0.95);
     }
 
     .sidebar.open {
-        left: 0; /* Sidebar slides in on smaller screens */
+        left: 0; 
     }
 
     .sidebar h3,
     .sidebar .nav-links li a {
-        font-size: 1rem; /* Adjust text size for smaller screens */
+        font-size: 1rem; 
     }
 }
 
 .hero {
     position: relative;
-    z-index: 1; /* Ensure hero section is clickable even when sidebar is open */
+    z-index: 1; 
 }

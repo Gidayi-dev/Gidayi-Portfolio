@@ -5,10 +5,10 @@ import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import headshot from "../assets/headshot.jpg";
 
 function Sidebar() {
-    const [isOpen, setIsOpen] = useState(false); // State to track if sidebar is open or closed
+    const [isOpen, setIsOpen] = useState(false);
 
     const toggleSidebar = () => {
-        setIsOpen(!isOpen); // Toggle sidebar state (open/closed)
+        setIsOpen(!isOpen); 
     };
 
     const scrollToSection = (section) => {
