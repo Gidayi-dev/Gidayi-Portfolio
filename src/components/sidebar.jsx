@@ -38,7 +38,7 @@ function Sidebar() {
                     <a href="mailto:millyannahi@gmail.com" target="_blank" rel="noreferrer">
                         <MdEmail />
                     </a>
-                    <a href="https://x.com/in/IMillyannah" target="_blank" rel="noreferrer">
+                    <a href="https://x.com/@IMillyannah" target="_blank" rel="noreferrer">
                         <FaTwitter />
                     </a>
                 </div>
