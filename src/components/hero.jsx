@@ -1,5 +1,5 @@
-import { TypeAnimation } from "react-type-animation";
 import "./hero.css";
+import { TypeAnimation } from "react-type-animation";
 import heroImage from '../assets/hero.jpg'; 
 
 function Hero() {
