@@ -12,11 +12,11 @@ function App() {
     <>
       <div className='app-container'>
         <Sidebar />
-        <div className="hero">
+        <div className="hero" id = 'hero'>
           <Hero />
         </div>
       </div>
-      <div id="home">
+      <div id="about">
         <AboutMe />
       </div>
       <div id="projects">
