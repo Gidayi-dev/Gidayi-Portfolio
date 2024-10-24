@@ -29,7 +29,7 @@ function Projects() {
                 <div className="project-card">
                     <img src={Landing} alt="Landing Page" />
                     <h3>Landing Page</h3>
-                    <p>A modern and responsive landing page designed to attract and convert visitors.</p>
+                    <p>A modern and responsive landing page I designed as a demo to perfect on my Cascading Style Sheets skills.</p>
                     <a href="https://github.com/Gidayi-dev/Landing-Page" target="_blank" rel="noopener noreferrer" className="project-link">View Project</a>
                 </div>
 
