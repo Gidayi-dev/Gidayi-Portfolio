@@ -1,18 +1,18 @@
 import Hero from "./components/hero";
-import './App.css';
+import "./App.css";
 import Sidebar from "./components/sidebar";
-import AboutMe from './components/about';
-import Projects from './components/projects';
-import Skills from './components/skills';
-import Contact from './components/contact';
-import Footer from './components/footer';
+import AboutMe from "./components/about";
+import Projects from "./components/projects";
+import Skills from "./components/skills";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <>
-      <div className='app-container'>
+      <div className="app-container">
         <Sidebar />
-        <div className="hero" id = 'hero'>
+        <div className="hero" id="hero">
           <Hero />
         </div>
       </div>

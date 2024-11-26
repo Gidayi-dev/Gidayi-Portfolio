@@ -1,52 +1,51 @@
 .about-me {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    padding: 40px;
-    max-width: 1200px; 
-    margin: 0 auto; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .about-description {
-    flex: 1; 
-    margin-right: 3rem;
+  flex: 1;
+  margin-right: 3rem;
 }
 
 .about-description h2 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    color: #E2E2B6;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #e2e2b6;
 }
 
 .about-description p {
-    color: azure;
-    line-height: 1.6; 
-    margin-bottom: 15px; 
-    font-size: 1.5rem;
+  color: azure;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
 }
 
 .about-image {
-    flex: 1; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-image img {
-    max-width: 70%;
-    height: auto;
-    border-radius: 8px; 
+  max-width: 70%;
+  height: auto;
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 1109px) {
-    .about-description p {
-        font-size: 1rem;
-    }
-} 
+  .about-description p {
+    font-size: 1rem;
+  }
+}
 
-@media screen and (max-width: 800px){
-    .about-me {
-        flex-direction: column;
-    }
-    
+@media screen and (max-width: 800px) {
+  .about-me {
+    flex-direction: column;
+  }
 }
