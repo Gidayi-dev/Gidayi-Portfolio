@@ -140,7 +140,7 @@ function Projects() {
 
         <div className="project-card">
           <img src={Tudo} alt="Tudo Healthcare Website" />
-          <h3>tudo Healthcare Website</h3>
+          <h3>Tudo Healthcare Website</h3>
           <p>
             A healthcare platform aimed at connecting patients with doctors and
             healthcare services.
@@ -157,7 +157,7 @@ function Projects() {
 
         <div className="project-card">
           <img src={Urban} alt="Urban Have Apartments" />
-          <h3>Urban Have Apartments</h3>
+          <h3>Urban Haven Apartments</h3>
           <p>
             A real estate website showcasing available properties for rent and
             purchase at Urban Have Apartments.
