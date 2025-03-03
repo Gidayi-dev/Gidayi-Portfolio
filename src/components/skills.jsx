@@ -4,110 +4,101 @@ import {
   FaNode,
   FaPython,
   FaGithub,
+  FaHtml5,
+  FaGem, // Ruby Icon
 } from "react-icons/fa";
-import { SiFlask, SiDjango, SiJira, SiGit } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiFigma,
+  SiTableau,
+  SiJira,
+  SiGit,
+  SiRubyonrails, // Ruby on Rails Icon
+} from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
-import { SiTailwindcss } from "react-icons/si";
-import { FaHtml5 } from "react-icons/fa";
 import "./skills.css";
 
 function Skills() {
+  const skills = [
+    {
+      icon: <FaJsSquare className="skill-icon" />,
+      title: "JavaScript",
+      description:
+        "Strong understanding of ES6+ features, asynchronous programming, and modern frameworks.",
+    },
+    {
+      icon: <FaReact className="skill-icon" />,
+      title: "React",
+      description:
+        "Experienced in building dynamic, interactive, and responsive UI using React, Hooks, and Context API.",
+    },
+    {
+      icon: <FaNode className="skill-icon" />,
+      title: "Node.js & Express",
+      description:
+        "Developed scalable backend applications and REST APIs using Node.js and Express.",
+    },
+    {
+      icon: <FaPython className="skill-icon" />,
+      title: "Python",
+      description:
+        "Proficient in Python for scripting, backend development, and data science applications.",
+    },
+    {
+      icon: <SiRubyonrails className="skill-icon" />,
+      title: "Ruby on Rails",
+      description:
+        "Experienced in developing robust, scalable web applications using Ruby on Rails.",
+    },
+    {
+      icon: <SiTailwindcss className="skill-icon" />,
+      title: "Tailwind CSS",
+      description:
+        "Skilled in utility-first CSS with Tailwind for rapid and responsive UI development.",
+    },
+    {
+      icon: <SiFigma className="skill-icon" />,
+      title: "Figma",
+      description:
+        "Experienced in UI/UX design, wireframing, and prototyping with Figma for user-centric design.",
+    },
+    {
+      icon: <GiArtificialIntelligence className="skill-icon" />,
+      title: "AI & Machine Learning",
+      description:
+        "Knowledge in machine learning algorithms, neural networks, and AI model development.",
+    },
+    {
+      icon: <SiTableau className="skill-icon" />,
+      title: "Data Analysis",
+      description:
+        "Skilled in data visualization, analytics, and insights generation using Tableau and Python.",
+    },
+    {
+      icon: <SiGit className="skill-icon" />,
+      title: "Git & GitHub",
+      description:
+        "Version control expertise with Git for tracking changes, and GitHub for project collaboration.",
+    },
+    {
+      icon: <SiJira className="skill-icon" />,
+      title: "JIRA",
+      description:
+        "Experienced in Agile project management and issue tracking using JIRA.",
+    },
+  ];
+
   return (
     <div className="skills">
       <h2>Skills</h2>
       <div className="skills-grid">
-        <div className="skill-card">
-          <FaJsSquare className="skill-icon" />
-          <h3>JavaScript</h3>
-          <p>
-            Expertise in JavaScript, including ES6+ features, DOM manipulation,
-            and modern frameworks.
-          </p>
-        </div>
-        <div className="skill-card">
-          <FaReact className="skill-icon" />
-          <h3>React</h3>
-          <p>
-            Proficient in building interactive user interfaces using React and
-            hooks.
-          </p>
-        </div>
-        <div className="skill-card">
-          <FaNode className="skill-icon" />
-          <h3>Node.js & Express</h3>
-          <p>
-            Experience in building server-side applications using Node.js and
-            Express for REST APIs.
-          </p>
-        </div>
-        <div className="skill-card">
-          <FaPython className="skill-icon" />
-          <h3>Python</h3>
-          <p>
-            Skilled in Python for scripting and backend development, including
-            Flask and Django.
-          </p>
-        </div>
-        <div className="skill-card">
-          <SiFlask className="skill-icon" />
-          <h3>Flask</h3>
-          <p>Experience in building lightweight web applications with Flask.</p>
-        </div>
-        <div className="skill-card">
-          <SiDjango className="skill-icon" />
-          <h3>Django</h3>
-          <p>
-            Proficient in building scalable and secure web applications using
-            Django.
-          </p>
-        </div>
-        <div className="skill-card">
-          <FaGithub className="skill-icon" />
-          <h3>Git & GitHub</h3>
-          <p>
-            Version control expertise with Git for tracking changes, and GitHub
-            for project collaboration.
-          </p>
-        </div>
-        <div className="skill-card">
-          <SiGit className="skill-icon" />
-          <h3>Git</h3>
-          <p>
-            Fluent in managing repositories, branching, and merging using Git.
-          </p>
-        </div>
-        <div className="skill-card">
-          <SiJira className="skill-icon" />
-          <h3>Jira</h3>
-          <p>
-            Familiar with Jira for project management and tracking tasks in
-            agile workflows.
-          </p>
-        </div>
-        <div className="skill-card">
-          <SiTailwindcss className="skill-icon" />
-          <h3>TailwindCSS</h3>
-          <p>
-            I’m skilled in Tailwind CSS, using utility classes to build
-            responsive, customizable, and efficient designs.
-          </p>
-        </div>
-        <div className="skill-card">
-          <FaHtml5 className="skill-icon" />
-          <h3>HTML & CSS</h3>
-          <p>
-            Proficient in HTML and CSS, creating structured, visually appealing,
-            and responsive web pages.
-          </p>
-        </div>
-        <div className="skill-card">
-          <GiArtificialIntelligence className="skill-icon" />
-          <h3>Exploring AI & ML</h3>
-          <p>
-            Currently diving into AI and Machine Learning, focusing on model
-            training and data analysis techniques.
-          </p>
-        </div>
+        {skills.map((skill, index) => (
+          <div key={index} className="skill-card">
+            {skill.icon}
+            <h3>{skill.title}</h3>
+            <p>{skill.description}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

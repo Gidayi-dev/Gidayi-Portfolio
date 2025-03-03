@@ -1,11 +1,11 @@
 .projects-section {
   padding: 50px 20px;
-  background-color: #021526;
+  background-color: black;
   text-align: center;
 }
 
 .projects-section h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 40px;
   color: #e2e2b6;
 }

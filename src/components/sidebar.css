@@ -13,6 +13,10 @@
   transition: left 0.3s ease;
 }
 
+.sidebar h3, .nav-links li a {
+  font-size: 1.4rem;
+}
+
 .sidebar.open {
   left: 0;
 }

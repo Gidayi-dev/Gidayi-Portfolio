@@ -13,7 +13,7 @@
 }
 
 .about-description h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 10px;
   color: #e2e2b6;
 }
@@ -22,7 +22,7 @@
   color: azure;
   line-height: 1.6;
   margin-bottom: 15px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .about-image {
