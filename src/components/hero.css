@@ -18,7 +18,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6); /* Dark overlay for text contrast */
+  background: rgba(0, 0, 0, 0.6); 
   z-index: 1;
 }
 
@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #e2e2b6; /* Your specified color */
+  color: #e2e2b6; 
   position: relative;
   z-index: 2;
   padding: 20px;
@@ -50,13 +50,12 @@
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-/* Style TypeAnimation text (targeting the span wrapper) */
 .hero-subtitle span {
   display: inline-block;
-  min-height: 2.5rem; /* Prevent layout shift */
+  min-height: 2.5rem; 
 }
 
-/* GitHub CTA button */
+
 .hero-cta {
   display: inline-block;
   padding: 10px 20px;
@@ -74,7 +73,6 @@
   box-shadow: 0 6px 20px rgba(12, 12, 29, 0.6);
 }
 
-/* Subtle entrance animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -86,4 +84,3 @@
   }
 }
 
-/* Optional: Particle effect (uncomment and install react-particles if desired
