@@ -12,8 +12,6 @@ function Hero() {
             sequence={[
               "A Fullstack Developer,",
               1000,
-              "UI & UX Designer,",
-              1000,
               "Welcome to My Portfolio!",
               1000,
               "I have interest in DataScience and AI engineering too,",
@@ -23,6 +21,8 @@ function Hero() {
               "Javascript,",
               1000,
               "React,",
+              1000,
+              "React Native,",
               1000,
               "ExpressJs,",
               1000,
@@ -36,7 +36,6 @@ function Hero() {
               1000,
               "Figma.",
               1000,
-
             ]}
             wrapper="div"
             repeat={Infinity}

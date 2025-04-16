@@ -7,20 +7,26 @@ function AboutMe() {
       <div className="about-description">
         <h2>About Me</h2>
         <p>
-          Hi! I’m Millyannah Gidayi, a passionate Fullstack Developer with
-          expertise in various technologies. I enjoy creating web applications
-          that not only look great but also provide a seamless user experience.
-          I have a strong background in JavaScript, React, Python, and more.
+          Hi! I’m Millyannah Gidayi, a passionate Fullstack and Mobile Developer
+          with a growing love for Machine Learning and Data Science. I enjoy
+          building clean, intuitive applications whether it’s a dynamic web
+          interface, a seamless mobile app, or a data-driven dashboard.
         </p>
         <p>
-          When I’m not coding, you can find me exploring new tech trends,
-          working on personal projects, or collaborating with other developers.
-          I believe in the power of community and continuous learning, and I'm
-          always eager to improve my skills.
+          With strong experience in JavaScript, React, Python, and mobile
+          technologies, I love turning ideas into user-friendly experiences.
+          Lately, I’ve been exploring how to turn messy data into meaningful
+          insights using tools like Pandas, NumPy, Seaborn, and Matplotlib.
         </p>
         <p>
-          Feel free to reach out to me if you want to collaborate or just want
-          to chat about technology!
+          Outside of coding, I’m usually geeking out over emerging tech, working
+          on side projects, or learning something new from the dev community and
+          watching documentaries. I believe in the power of curiosity,
+          collaboration, and always leveling up.
+        </p>
+        <p>
+          Let’s build, learn, or chat tech together I'm always open to great
+          convos and cool collabs!
         </p>
       </div>
       <div className="about-image">

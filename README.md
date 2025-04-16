@@ -16,6 +16,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 I am proficient in a wide range of technologies, and I am continuously improving my skill set. Here are some of the key technologies I use in my projects:
 
 ### Frontend Development
+
 - **HTML5**
 - **CSS3** (Flexbox, Grid, SASS)
 - **JavaScript (ES6+)**
@@ -24,19 +25,23 @@ I am proficient in a wide range of technologies, and I am continuously improving
 - **Tailwind CSS**
 
 ### Backend Development
+
 - **Node.js**
 - **Express.js**
 - **API Development**
 - **RESTful APIs**
 
 ### Databases
+
 - **PostgreSQL**
 
 ### Version Control & Collaboration
+
 - **Git**
 - **GitHub**
 
 ### Other Tools & Technologies
+
 - **AWS (Amazon Web Services)**
 - **CI/CD (Continuous Integration / Continuous Deployment)**
 - **Postman** (API Testing)
