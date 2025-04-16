@@ -5,43 +5,32 @@ import { TypeAnimation } from "react-type-animation";
 function Hero() {
   return (
     <div className="hero" style={{ backgroundImage: `url(${heroImage})` }}>
+      <div className="hero-overlay"></div>
       <div className="hero-content">
-        <h1>Hello👋, I am Millyannah Gidayi</h1>
-        <h1>
+        <h1 className="hero-greeting">Hello 👋, I'm Millyannah Gidayi</h1>
+        <h2 className="hero-subtitle">
           <TypeAnimation
             sequence={[
-              "A Fullstack Developer,",
-              1000,
-              "Welcome to My Portfolio!",
-              1000,
-              "I have interest in DataScience and AI engineering too,",
-              1000,
-              "Passionate about coding with proficiency in,",
-              1000,
-              "Javascript,",
-              1000,
-              "React,",
-              1000,
-              "React Native,",
-              1000,
-              "ExpressJs,",
-              1000,
-              "Python,",
-              1000,
-              "PowerBI,",
-              1000,
-              "NodeJs,",
-              1000,
-              "Ruby on rails,",
-              1000,
-              "Figma.",
-              1000,
+              "I build awesome web and mobile apps.",
+              2000, // Increased pause for readability
+              "Exploring the world of AI & Data Science.",
+              2000,
+              "Let's create something amazing together!",
+              2000,
             ]}
-            wrapper="div"
+            wrapper="span" // Changed to span for inline styling
             repeat={Infinity}
-            speed={10}
+            speed={50} // Slower speed for better readability
           />
-        </h1>
+        </h2>
+        <a
+          href="https://github.com/yourusername" // Replace with your GitHub URL
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hero-cta"
+        >
+          My Work
+        </a>
       </div>
     </div>
   );
