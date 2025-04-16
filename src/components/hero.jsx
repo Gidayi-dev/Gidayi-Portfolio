@@ -24,7 +24,7 @@ function Hero() {
           />
         </h2>
         <a
-          href="https://github.com/yourusername" // Replace with your GitHub URL
+          href="https://github.com/Gidayi-dev"
           target="_blank"
           rel="noopener noreferrer"
           className="hero-cta"
